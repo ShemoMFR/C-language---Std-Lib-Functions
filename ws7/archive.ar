@@ -1,0 +1,28 @@
+!<arch>
+s1.c/           0           0     0     644     31        `
+void foo()
+{
+	char str1[20];
+}
+
+s2.c/           0           0     0     644     57        `
+void foo()
+{
+	char *str2 = malloc(sizeof(*str2) * 20);
+}
+
+s3.c/           0           0     0     644     41        `
+void foo()
+{
+	char *str3 = "Whatever";
+}
+
+s4.c/           0           0     0     644     42        `
+void foo()
+{
+	char str4[] = "Whatever";
+}
+s.h/            0           0     0     644     14        `
+
+
+void foo();
